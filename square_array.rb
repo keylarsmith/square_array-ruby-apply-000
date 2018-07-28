@@ -1,3 +1,7 @@
 def square_array(array)
-  array.map{|a| a * a}
+  res = []
+  array.each do |a|
+    res << (a * a)
+  end
+  res
 end
